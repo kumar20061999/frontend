@@ -1,0 +1,56 @@
+*{margin:0; padding:}
+body{
+  background-color:#3385ff;
+ padding:30vh;
+
+}
+
+.form-container
+{
+  width: 320px;
+  height: auto;
+  padding:50px 30px;
+  background-color:	#fff;
+  border-radius: 20px;
+  box-shadow:5px 10px ;
+  margin:auto;
+  position: relative;
+}
+.user-img{
+  background: url('uiet logo.png')no-repeat;
+  width: 110px;
+  height:110px;
+  background-size: 100%;
+  position: absolute;
+  top: -70px;
+  left: 140px;
+}
+ul.list
+{
+list-style-type:none;
+text-align: center;
+
+}
+ul.list li
+{
+width: 250px;
+text-align: center;
+margin-bottom: 15px;
+}
+ul.list li input{
+  width: 250px;
+  text-align: center;
+  padding: 10px 0px;
+  border: none;
+  border-radius: #d3d3d3;
+  border-radius: 10px;
+  background-color: #cbd2db;
+  box-shadow:2px 4px
+}
+ul.list li input[type="button"]{
+  background-color:#0d56bf;
+  color: #fff;
+}
+ul.list li:nth-child(5) {
+  color: red;
+}
